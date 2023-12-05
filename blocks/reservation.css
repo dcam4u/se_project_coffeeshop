@@ -1,3 +1,5 @@
+@import url(../blocks/form.css);
+
 .reservation {
     background-color: #d9e7ff;
     background-image: url(../images/background_reservation.svg);
@@ -27,65 +29,4 @@
     justify-content: center;
     align-items: center;
     max-width: 385px;
-}
-
-.form__fieldset {
-    margin: 0;
-    border: none;
-    padding: 0;
-}
-
-.form__label {
-    display: block;
-    font-size: 16px;
-    line-height: 20px;
-    max-width: 385px;
-    margin-bottom: 8px;
-}
-
-.form__input {
-    border: 1px solid #838383;
-    box-sizing: border-box;
-    font-size: 20px;
-    padding: 20px;
-    line-height: 30px;
-}
-
-.form__input::placeholder {
-    font-size: 20px;
-    color: #838383;
-  }
-
-.form__button {
-    background-color: #2f80ed;
-    border: 1px solid #2f80ed;
-    color: #fff;
-    font-size: 16px;
-    line-height: 20px;
-}
-
-.form__input[type="text"], 
-.form__input[type="number"],
-.form__input[type="datetime-local"],
-.form__input[type="email"],
-.form__button[type="submit"] {
-  border-radius: 4px;
-  min-width: 385px;
-  max-width: 385px;
-  height: 60px;
-  margin-bottom: 32px;
-  vertical-align: middle;
-}
-
-.form__input[type="checkbox"] {
-    border-radius: 2px;
-    width: 20px;
-    height: 20px;
-    margin-right: 12px;
-    vertical-align: middle;
-}
-
-.form__button:hover {
-    transition: opacity .5s ease;
-    opacity: 70%;
 }

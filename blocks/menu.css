@@ -1,3 +1,5 @@
+@import url(../blocks/card.css);
+
 .menu {
     background-color: #fff;
     background-image: url(../images/background_menu.svg);
@@ -40,7 +42,7 @@
     gap: 100px;
 }
 
-.card {
+/* .card {
     width: 540px;
 }
 
@@ -72,4 +74,4 @@
 .card__list-divider {
     border-bottom: 1px solid #000;
     flex-grow: 1;
-}
+} */
